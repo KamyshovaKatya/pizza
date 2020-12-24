@@ -1,7 +1,7 @@
 <template>
   <div id="app">
    <app-pizza v-bind:pizzaName='pizzaName' v-bind:pizzaSize='pizzaSize' v-bind:pizzaPrice='pizzaPrice'>
-<h1 slot="n1">Покупайте пиццу</h1>
+<h1 slot="n1">Покупайте пиццу!</h1>
 <p>Состав: мука, соль, перец, томатная паста, колбаса, сыр</p>
    </app-pizza>
   </div>
